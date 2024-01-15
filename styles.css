@@ -11,6 +11,8 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+  background: rgb(158,158,158);
+  background: radial-gradient(circle, rgba(158,158,158,1) 0%, rgba(98,98,98,1) 59%);
 }
 
 model-viewer {
