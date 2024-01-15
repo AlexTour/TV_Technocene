@@ -27,7 +27,7 @@ body {
     opacity: 0;  
     z-index: 0;
     pointer-events: none;
-    animation: pulsate 1s ease-in-out infinite, delay-pulsate random(0s, 10s) linear infinite;
+    animation: pulsate 1s ease-in-out infinite, delay-pulsate linear infinite;
     background: url(noise.gif);
 }
 
@@ -45,7 +45,7 @@ body {
 
 @keyframes delay-pulsate {
   to {
-    animation-delay: random(0s, 10s);
+    animation-delay: 5s;
   }
 }
 
