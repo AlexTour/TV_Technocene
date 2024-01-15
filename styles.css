@@ -24,7 +24,7 @@ body {
     height: 100vh;
     content: "";
     /* you can control opacity of noise  */
-    opacity: .1;  
+    opacity: .4;  
     z-index: 0;
     pointer-events: none;
     background: url(noise.gif) ;
@@ -67,24 +67,21 @@ model-viewer {
 }
 
 #ar-button {
-  background-image: url(ar_icon.png);
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  background-position: 12px 50%;
-  background-color: #fff;
+  background-color: #5e5e5ead;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
   bottom: 16px;
-  padding: 0px 16px 0px 40px;
+  padding: 0px 16px;
   font-family: Roboto Regular, Helvetica Neue, sans-serif;
   font-size: 14px;
-  color:#4285f4;
+  color: #ffffff;
   height: 36px;
   line-height: 36px;
-  border-radius: 18px;
-  border: 1px solid #DADCE0;
+  border: 2px solid #FFFFFF;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 #ar-button:active {
